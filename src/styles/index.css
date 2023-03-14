@@ -1,0 +1,12 @@
+.active {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    
+  }
+
+  .link-muted {
+    color: inherit; /* inherits the text color from the parent element */
+    text-decoration: none; /* removes the underline */
+    cursor: default; /* sets the cursor to default to remove link behavior */
+  }
+  
