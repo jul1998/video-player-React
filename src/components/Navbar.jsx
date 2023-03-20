@@ -1,5 +1,6 @@
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import Sidebar from './OffCanvasComp';
+import SearchBar from './SearchBar';
 const NavbaComp = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
@@ -14,15 +15,7 @@ const NavbaComp = () => {
             <Nav.Link href="#link">Link</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
           </Nav>
-          <Form className="d-flex mx-auto">
-            <FormControl
-              type="search"
-              placeholder="Search"
-              className="mr-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+          <SearchBar/>
         </Navbar.Collapse>
       </Container>
     </Navbar>
