@@ -23,7 +23,7 @@ const SearchFeed = () => {
       setIsLoading(false);
     };
     fetchVideos();
-  }, [SearchFeed]);
+  }, [searchTerm]);
 
   return (
     <div>

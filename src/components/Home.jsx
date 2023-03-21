@@ -47,7 +47,7 @@ const Home = () => {
               <Row>
                 <Col>
                 <h1>{selectedCategory} videos</h1>
-                  <DisplayVideosComp videos={videos} />
+                  <DisplayVideosComp videos={videos}  direction="horizontal"/>
                 </Col>
               </Row>
             )}
